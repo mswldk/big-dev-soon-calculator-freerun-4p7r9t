@@ -1,21 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <bds />
-    <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
-    <title>BigDevSoon - Calculator Project</title>
-  </head>
-  <body>
-    <!-- Place below is for your own exciting code -->
-    <p>Time to write some code! 👀</p>
-    <!-- Change the [ME] part to your own name/GitHub link -->
-    <div class="footer">
-      <a href="https://bigdevsoon.me" target="_blank" rel="noopener noreferrer"
-        >Project by BigDevSoon</a
-      >
-      |
-      <span>Built with ❤️ by [ME]</span>
+
+<head>
+  <bds />
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="index.js" defer></script>
+  <title>BigDevSoon - Calculator Project</title>
+</head>
+
+<body>
+  <!-- Place below is for your own exciting code -->
+  <div class="grid h-screen place-items-center">
+    <div class="w-1/4">
+      <div class="bg-gray-100 py-2 px-4">Calc</div>
+      <div class="bg-gray-100 py-2 px-4 text-right">parts of calculation</div>
+      <div class="bg-gray-100 py-3 px-4 text-right text-2xl">result</div>
+      <div class="flex flex-row flex-wrap bg-stone-100 p-3">
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">AC</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">C</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md flex justify-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">
+            <img src="assets/icons/percent-icon.svg" />
+          </div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md flex justify-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">
+            <img src="assets/icons/division-icon.svg" />
+          </div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">7</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">8</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">9</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md flex justify-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2"><img
+              src="assets/icons/multiplication-icon.svg" />
+          </div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">4</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">5</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">6</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md flex justify-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2"><img
+              src="assets/icons/subtraction-icon.svg" />
+          </div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">1</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">2</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">3</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md flex justify-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2"><img
+              src="assets/icons/add-icon.svg" />
+          </div>
+        </div>
+        <div class="py-1 w-1/2">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">0</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md text-center shadow-lg bg-stone-50 hover:bg-stone-200 py-2">.</div>
+        </div>
+        <div class="py-1 w-1/4">
+          <div class="m-1 rounded-md flex justify-center shadow-lg bg-red-400 hover:bg-red-600 py-2"><img
+              src="assets/icons/equals-icon.svg" class="fill-white-100" />
+          </div>
+        </div>
+      </div>
     </div>
-  </body>
+  </div>
+  <div class="bottom-0 left-0 right-0 absolute p-2.5 text-center">
+    <a href="https://bigdevsoon.me" target="_blank" rel="noopener noreferrer">Project by BigDevSoon</a>
+    |
+    <span>Built with ❤️ by <a href="https://github.com/mswldk" target="_blank">@mswldk</a></span>
+  </div>
+</body>
+
 </html>

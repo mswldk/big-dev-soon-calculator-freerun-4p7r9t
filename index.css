@@ -1,4 +1,32 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
+
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/Inter-Medium.ttf);
+}
+
+body {
+  font-family: Inter;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: auto;
+  position: relative;
+}
+
+.calculator {
+  border: 1px solid black;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -6,6 +34,7 @@
   right: 0;
   padding: 10px;
   text-align: center;
+  height: 2vh;
 }
 
 .footer a {
